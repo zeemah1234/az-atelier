@@ -4,6 +4,8 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import ProductList from "./components/ProductList";
 import FAQ from "./components/FAQ";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 export default function App() {
   // darkMode lives here so the whole page can use it
@@ -21,13 +23,10 @@ export default function App() {
         <About />
         <ProductList />
         <FAQ />
-
-        {/* Placeholder: replace with the forms next */}
-        <section id="contact" className="section">
-          <h2>Contact</h2>
-          <p>Enquiry and appointment forms go here.</p>
-        </section>
+        <Contact />
       </main>
+
+      <Footer />
     </div>
   );
 }
