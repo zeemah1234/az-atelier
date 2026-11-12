@@ -1,0 +1,246 @@
+:root {
+  --bg: #faf6f0;
+  --surface: #ffffff;
+  --text: #2b1b2e;
+  --primary: #5b2a5e;
+  --on-primary: #faf6f0;
+  --accent: #c9a227;
+  --border: #e5dccf;
+  --font-heading: "Playfair Display", Georgia, serif;
+  --font-body: "Inter", system-ui, sans-serif;
+}
+
+/* Dark colours: the "dark" class is added to the page wrapper in App.jsx */
+.app.dark {
+  --bg: #1a1220;
+  --surface: #2a1d33;
+  --text: #f3ece4;
+  --primary: #d8b24a;
+  --on-primary: #1a1220;
+  --accent: #d8b24a;
+  --border: #3d2b4a;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; font-family: var(--font-body); }
+
+.app {
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--text);
+}
+
+h1, h2 { font-family: var(--font-heading); color: var(--primary); }
+
+a { color: var(--text); }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+
+.section {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 4rem 1.25rem;
+  scroll-margin-top: 4.5rem; /* keeps headings clear of the sticky navbar */
+}
+
+/* Buttons */
+.btn, .menu-button {
+  background: var(--primary);
+  color: var(--on-primary);
+  border: none;
+  border-radius: 6px;
+  padding: 0.6rem 1rem;
+  font: inherit;
+  font-weight: 600;
+  min-height: 44px; /* easy to tap */
+  cursor: pointer;
+}
+
+/* Navbar */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+}
+.nav-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0.75rem 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+.logo {
+  font-family: var(--font-heading);
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--primary);
+  text-decoration: none;
+}
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: none; /* hidden on phones until the menu opens */
+  width: 100%;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.nav-links.open { display: flex; }
+.nav-links a {
+  display: block;
+  padding: 0.75rem 0;
+  text-decoration: none;
+  font-weight: 500;
+}
+.nav-links a:hover { color: var(--primary); }
+
+/* Tablet and laptop: show links in a row, hide the menu button */
+@media (min-width: 768px) {
+  .menu-button { display: none; }
+  .nav-links {
+    display: flex;
+    width: auto;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  .nav-links a { padding: 0.25rem 0; }
+}
+
+/* Headings */
+h1 {
+  font-size: clamp(2rem, 5vw, 3.25rem);
+  line-height: 1.15;
+  margin: 0 0 1rem;
+}
+h2 { margin: 0 0 1rem; }
+
+/* Links styled as buttons */
+a.btn {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+/* Hero and About: stacked on phones, two columns on bigger screens */
+.hero,
+.about {
+  display: grid;
+  gap: 2rem;
+  align-items: center;
+}
+.hero-text p,
+.about-text p {
+  max-width: 36rem;
+  line-height: 1.6;
+  margin: 0 0 1.5rem;
+}
+.hero-image,
+.about-image {
+  background: var(--surface);
+  border-radius: 12px;
+  overflow: hidden;
+}
+.hero-image img,
+.about-image img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .hero,
+  .about {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Search */
+.shop-tools {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-width: 28rem;
+  margin-bottom: 2rem;
+}
+.shop-tools label { font-weight: 600; }
+.shop-tools input {
+  min-height: 44px;
+  padding: 0.5rem 0.75rem;
+  font: inherit;
+  color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}
+
+/* Product grid: 1 column on phones, 2 on tablets, 3 on laptops */
+.product-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+@media (min-width: 600px) {
+  .product-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 960px) {
+  .product-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+}
+.product-card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+}
+.product-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 1rem;
+}
+.product-body h3 {
+  margin: 0 0 0.5rem;
+  font-family: var(--font-heading);
+  font-size: 1.2rem;
+}
+.product-category {
+  margin: 0 0 0.25rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--primary);
+}
+.product-description {
+  margin: 0 0 1rem;
+  line-height: 1.5;
+}
+.product-price {
+  margin: auto 0 0; /* pushes the price to the bottom so cards line up */
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.view-all {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.no-results {
+  font-size: 1.1rem;
+  padding: 2rem 0;
+}

@@ -1,0 +1,115 @@
+// AZ Atelier: sample content for a fictional brand.
+// Replace the image files with photos you own or are allowed to use,
+// and credit them in your README. File names are case-sensitive online.
+
+export const products = [
+  {
+    id: 1,
+    name: "Ankara Peplum Set",
+    category: "Native",
+    description: "A fitted peplum top with a matching skirt in bold Ankara print.",
+    price: "NGN 45,000",
+    image: "/images/ankara-peplum-set.jpg",
+    alt: "Woman wearing an Ankara peplum top and skirt set",
+  },
+  {
+    id: 2,
+    name: "Satin Evening Gown",
+    category: "Gowns",
+    description: "A floor-length satin gown with a sweetheart neckline for evening events.",
+    price: "NGN 85,000",
+    image: "/images/satin-evening-gown.jpg",
+    alt: "Floor-length satin evening gown on a mannequin",
+  },
+  {
+    id: 3,
+    name: "Tailored Office Blazer Set",
+    category: "Corporate",
+    description: "A structured blazer and straight trousers for a sharp work look.",
+    price: "NGN 60,000",
+    image: "/images/office-blazer-set.jpg",
+    alt: "Tailored blazer and trousers set in navy",
+  },
+  {
+    id: 4,
+    name: "Aso Oke Iro and Buba",
+    category: "Native",
+    description: "A classic wrapper and blouse in handwoven Aso Oke for weddings and ceremonies.",
+    price: "NGN 120,000",
+    image: "/images/aso-oke-iro-buba.jpg",
+    alt: "Iro and buba outfit made from woven Aso Oke fabric",
+  },
+  {
+    id: 5,
+    name: "Lace Mermaid Gown",
+    category: "Gowns",
+    description: "A fitted lace gown that flares at the knee, made for special occasions.",
+    price: "NGN 110,000",
+    image: "/images/lace-mermaid-gown.jpg",
+    alt: "Fitted lace mermaid gown in ivory",
+  },
+  {
+    id: 6,
+    name: "Pencil Skirt and Shirt Set",
+    category: "Corporate",
+    description: "A crisp cotton shirt with a knee-length pencil skirt for the office.",
+    price: "NGN 38,000",
+    image: "/images/pencil-skirt-shirt.jpg",
+    alt: "White cotton shirt with a black pencil skirt",
+  },
+  {
+    id: 7,
+    name: "Senator Kaftan",
+    category: "Native",
+    description: "A relaxed senator-style kaftan with fine embroidery at the collar.",
+    price: "NGN 50,000",
+    image: "/images/senator-kaftan.jpg",
+    alt: "Embroidered senator-style kaftan",
+  },
+  {
+    id: 8,
+    name: "Off-Shoulder Ball Gown",
+    category: "Gowns",
+    description: "A full, flowing ball gown with an off-shoulder neckline and a tulle skirt.",
+    price: "NGN 150,000",
+    image: "/images/off-shoulder-ball-gown.jpg",
+    alt: "Off-shoulder ball gown with a full tulle skirt",
+  },
+  {
+    id: 9,
+    name: "Wrap Dress for Work",
+    category: "Corporate",
+    description: "A knee-length wrap dress in soft crepe that goes from desk to dinner.",
+    price: "NGN 42,000",
+    image: "/images/wrap-dress.jpg",
+    alt: "Knee-length crepe wrap dress in deep green",
+  },
+];
+
+export const faqs = [
+  {
+    id: 1,
+    question: "Do you make outfits to my measurements?",
+    answer: "Yes. Book a fitting appointment and we will take your measurements and talk through the style, fabric, and finish.",
+  },
+  {
+    id: 2,
+    question: "How long does a custom outfit take?",
+    answer: "Most outfits take two to three weeks. Gowns and Aso Oke pieces can take longer, and we will confirm the date when you order.",
+  },
+  {
+    id: 3,
+    question: "Do you offer alterations?",
+    answer: "Yes. We can adjust the fit of outfits you buy from us. Send an enquiry with details of what you need changed.",
+  },
+  {
+    id: 4,
+    question: "Do you deliver?",
+    answer: "Yes, we deliver within Lagos and send to other states by courier. Delivery fees depend on your location.",
+  },
+  {
+    id: 5,
+    question: "How do I book an appointment?",
+    answer: "Use the appointment form in the Contact section. Enter your name, preferred date, time, and the service you need.",
+  },
+];
