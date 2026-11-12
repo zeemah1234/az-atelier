@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import ProductList from "./components/ProductList";
+import FAQ from "./components/FAQ";
 
 export default function App() {
   // darkMode lives here so the whole page can use it
@@ -19,12 +20,9 @@ export default function App() {
         <Hero />
         <About />
         <ProductList />
+        <FAQ />
 
-        {/* Placeholders: replace with real components later */}
-        <section id="faq" className="section">
-          <h2>FAQ</h2>
-          <p>FAQ accordion goes here.</p>
-        </section>
+        {/* Placeholder: replace with the forms next */}
         <section id="contact" className="section">
           <h2>Contact</h2>
           <p>Enquiry and appointment forms go here.</p>
