@@ -8,6 +8,7 @@ export default function Hero() {
           occasions. Browse the collection, then send an enquiry or book a
           fitting.
         </p>
+        
         <a href="#shop" className="btn">
           Shop the collection
         </a>

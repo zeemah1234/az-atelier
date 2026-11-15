@@ -119,7 +119,7 @@ export default function AppointmentForm() {
       )}
       {done && (
         <p className="form-success" role="status">
-          Demo appointment request completed. No appointment has been booked.
+          Demo appointment request completed.Your appointment details have been saved.
         </p>
       )}
 
