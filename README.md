@@ -71,7 +71,7 @@ src/index.css         styles and light/dark colour variables
 
 ## Image credits
 
-I got the each photos from the Unsplash app.
+I got each photos from Unsplash app.
 - Ankara-peplum: Studio YW, Unsplash, https://unsplash.com/photos/woman-in-ornate-blue-dress-and-headwrap-p5ewDl5mVWc
 - aso-oke: McFollis, Unsplash, https://unsplash.com/photos/woman-in-green-dress-and-headwrap-r1vPrS9JDZ8
 - Lace-mermaid: Jonathan Borba, Unsplash, https://unsplash.com/photos/woman-in-white-floral-wedding-dress--shn8ecaH2w
@@ -85,11 +85,9 @@ I got the each photos from the Unsplash app.
 - Hero image:Iwari Inc., Unsplash, [link](https://unsplash.com/photos/a-group-of-colorful-objects-JnOFLg09yRE)
 - About image: Vitaly Gariev, Unsplash, [link](https://unsplash.com/photos/fashion-designers-collaborating-and-working-in-a-studio-O6c8l2ROAYI)
 
-(Delete this section if every image is your own.)
-
 ## A challenge I solved
+When I added the Contact section, the page showed a red error saying Vite "failed to resolve import ./AppointmentForm". At first the Contact section only showed placeholder text, so I checked my files one by one. I found that `AppointmentForm.jsx` was empty and not named correctly, so `Contact.jsx` could not import it. I created the file with the right name, wrote the form with controlled inputs and validation, and saved it. The Contact section, both forms and the footer then appeared. I learned that every imported component must exist, be saved, and match its file name exactly, including capital letters.
 
-WRITE ONE SHORT PARAGRAPH IN YOUR OWN WORDS. Say what the problem was, what you tried, and what fixed it.
 **GitHub repository:** https://github.com/zeemah1234/az-atelier
 
 > AZ Atelier is a fictional business. The contact details are made up, and the enquiry and appointment forms are demonstrations only. Nothing is sent or saved.
@@ -168,7 +166,5 @@ I got each photos from the Unsplash app.
 - Hero image:Iwari Inc., Unsplash, [link](https://unsplash.com/photos/a-group-of-colorful-objects-JnOFLg09yRE)
 - About image: Vitaly Gariev, Unsplash, [link](https://unsplash.com/photos/fashion-designers-collaborating-and-working-in-a-studio-O6c8l2ROAYI)
 
-
-## A challenge I solved
 
 When I added the Contact section, the page showed a red error saying Vite "failed to resolve import ./AppointmentForm". At first the Contact section only showed placeholder text, so I checked my files one by one. I found that `AppointmentForm.jsx` was empty and not named correctly, so `Contact.jsx` could not import it. I created the file with the right name, wrote the form with controlled inputs and validation, and saved it. The Contact section, both forms and the footer then appeared. I learned that every imported component must exist, be saved, and match its file name exactly, including capital letters.
