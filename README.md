@@ -71,7 +71,16 @@ src/index.css         styles and light/dark colour variables
 
 ## Image credits
 
-I got the each photos from the Unsplash app 
+I got the each photos from the Unsplash app.
+- Ankara-peplum: Studio YW, Unsplash, https://unsplash.com/photos/woman-in-ornate-blue-dress-and-headwrap-p5ewDl5mVWc
+- aso-oke: McFollis, Unsplash, https://unsplash.com/photos/woman-in-green-dress-and-headwrap-r1vPrS9JDZ8
+- Lace-mermaid: Jonathan Borba, Unsplash, https://unsplash.com/photos/woman-in-white-floral-wedding-dress--shn8ecaH2w
+- off-shoulder: Promfy, Unsplash, https://unsplash.com/photos/a-white-wedding-dress-with-pink-flowers-on-a-mannequin-tVw_GvPEGyU
+- office-blazer: Lonela Mat, Unsplash, https://unsplash.com/photos/a-person-wearing-a-jacket-and-jeans-qw3PKqZnzdE
+- pencil-skirt: Doan Tien Hai, Unsplash, https://unsplash.com/photos/woman-in-white-dress-shirt-and-brown-slit-skit-standing-outside-during-daytime-qUgqizpEmQM
+- satin-evening: FOTOGRAFIA EDITORIAL, Unsplash, https://unsplash.com/photos/woman-in-a-red-dress-with-a-high-slit-_kx6ShhfCvs
+- senator-kaftan: Patrick Amofah, Unsplash, https://unsplash.com/photos/a-man-in-a-green-outfit-standing-in-a-hallway-MUsBHMkjPXU
+- wrap-dress: James Lewis, Unsplash,, https://unsplash.com/photos/woman-in-seashore-ohiyigDmlYc
 
 - Hero image:Iwari Inc., Unsplash, [link](https://unsplash.com/photos/a-group-of-colorful-objects-JnOFLg09yRE)
 - About image: Vitaly Gariev, Unsplash, [link](https://unsplash.com/photos/fashion-designers-collaborating-and-working-in-a-studio-O6c8l2ROAYI)
@@ -145,13 +154,22 @@ src/index.css         styles and light/dark colour variables
 
 ## Image credits
 
-REPLACE THIS SECTION. List the source and photographer of each photo you use, for example:
+I got the each photos from the Unsplash app.
+- Ankara-peplum: Studio YW, Unsplash, https://unsplash.com/photos/woman-in-ornate-blue-dress-and-headwrap-p5ewDl5mVWc
+- aso-oke: McFollis, Unsplash, https://unsplash.com/photos/woman-in-green-dress-and-headwrap-r1vPrS9JDZ8
+- Lace-mermaid: Jonathan Borba, Unsplash, https://unsplash.com/photos/woman-in-white-floral-wedding-dress--shn8ecaH2w
+- off-shoulder: Promfy, Unsplash, https://unsplash.com/photos/a-white-wedding-dress-with-pink-flowers-on-a-mannequin-tVw_GvPEGyU
+- office-blazer: Lonela Mat, Unsplash, https://unsplash.com/photos/a-person-wearing-a-jacket-and-jeans-qw3PKqZnzdE
+- pencil-skirt: Doan Tien Hai, Unsplash, https://unsplash.com/photos/woman-in-white-dress-shirt-and-brown-slit-skit-standing-outside-during-daytime-qUgqizpEmQM
+- satin-evening: FOTOGRAFIA EDITORIAL, Unsplash, https://unsplash.com/photos/woman-in-a-red-dress-with-a-high-slit-_kx6ShhfCvs
+- senator-kaftan: Patrick Amofah, Unsplash, https://unsplash.com/photos/a-man-in-a-green-outfit-standing-in-a-hallway-MUsBHMkjPXU
+- wrap-dress: James Lewis, Unsplash,, https://unsplash.com/photos/woman-in-seashore-ohiyigDmlYc
 
-- Hero image: Photographer name, Unsplash, link
-- About image: Photographer name, Pexels, link
-
-(Delete this section if every image is your own.)
+- Hero image:Iwari Inc., Unsplash, [link](https://unsplash.com/photos/a-group-of-colorful-objects-JnOFLg09yRE)
+- About image: Vitaly Gariev, Unsplash, [link](https://unsplash.com/photos/fashion-designers-collaborating-and-working-in-a-studio-O6c8l2ROAYI)
 
 ## A challenge I solved
 
-WRITE ONE SHORT PARAGRAPH IN YOUR OWN WORDS. Say what the problem was, what you tried, and what fixed it.
+## A challenge I solved
+
+When I added the Contact section, the page showed a red error saying Vite "failed to resolve import ./AppointmentForm". At first the Contact section only showed placeholder text, so I checked my files one by one. I found that `AppointmentForm.jsx` was empty and not named correctly, so `Contact.jsx` could not import it. I created the file with the right name, wrote the form with controlled inputs and validation, and saved it. The Contact section, both forms and the footer then appeared. I learned that every imported component must exist, be saved, and match its file name exactly, including capital letters.

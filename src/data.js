@@ -19,7 +19,7 @@ export const products = [
     description: "A floor-length satin gown with a sweetheart neckline for evening events.",
     price: "NGN 85,000",
     image: "/images/satin-evening-gown.jpg",
-    alt: "Floor-length satin evening gown on a mannequin",
+    alt: "Woman wearing a satin evening gown in red color",
   },
   {
     id: 3,
@@ -55,7 +55,7 @@ export const products = [
     description: "A crisp cotton shirt with a knee-length pencil skirt for the office.",
     price: "NGN 38,000",
     image: "/images/pencil-skirt-shirt.jpg",
-    alt: "White cotton shirt with a black pencil skirt",
+    alt: "White cotton shirt with a pink pencil skirt",
   },
   {
     id: 7,
@@ -70,10 +70,10 @@ export const products = [
     id: 8,
     name: "Off-Shoulder Ball Gown",
     category: "Gowns",
-    description: "A full, flowing ball gown with an off-shoulder neckline and a tulle skirt.",
+    description: "A full, pink flowing ball gown with an off-shoulder neckline and a tulle skirt.",
     price: "NGN 150,000",
     image: "/images/off-shoulder-ball-gown.jpg",
-    alt: "Off-shoulder ball gown with a full tulle skirt",
+    alt: "Off-shoulder ball gown with a flower pattern on the bodice",
   },
   {
     id: 9,
@@ -82,7 +82,7 @@ export const products = [
     description: "A knee-length wrap dress in soft crepe that goes from desk to dinner.",
     price: "NGN 42,000",
     image: "/images/wrap-dress.jpg",
-    alt: "Knee-length crepe wrap dress in deep green",
+    alt: "full-length crepe wrap dress in ash color",
   },
 ];
 
