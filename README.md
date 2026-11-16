@@ -154,7 +154,7 @@ src/index.css         styles and light/dark colour variables
 
 ## Image credits
 
-I got the each photos from the Unsplash app.
+I got each photos from the Unsplash app.
 - Ankara-peplum: Studio YW, Unsplash, https://unsplash.com/photos/woman-in-ornate-blue-dress-and-headwrap-p5ewDl5mVWc
 - aso-oke: McFollis, Unsplash, https://unsplash.com/photos/woman-in-green-dress-and-headwrap-r1vPrS9JDZ8
 - Lace-mermaid: Jonathan Borba, Unsplash, https://unsplash.com/photos/woman-in-white-floral-wedding-dress--shn8ecaH2w
@@ -168,7 +168,6 @@ I got the each photos from the Unsplash app.
 - Hero image:Iwari Inc., Unsplash, [link](https://unsplash.com/photos/a-group-of-colorful-objects-JnOFLg09yRE)
 - About image: Vitaly Gariev, Unsplash, [link](https://unsplash.com/photos/fashion-designers-collaborating-and-working-in-a-studio-O6c8l2ROAYI)
 
-## A challenge I solved
 
 ## A challenge I solved
 

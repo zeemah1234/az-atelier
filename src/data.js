@@ -55,7 +55,7 @@ export const products = [
     description: "A crisp cotton shirt with a knee-length pencil skirt for the office.",
     price: "NGN 38,000",
     image: "/images/pencil-skirt-shirt.jpg",
-    alt: "White cotton shirt with a pink pencil skirt",
+    alt: "White cotton shirt with a brown pencil skirt",
   },
   {
     id: 7,
@@ -78,7 +78,7 @@ export const products = [
   {
     id: 9,
     name: "Wrap Dress for Work",
-    category: "Corporate",
+    category: "Gowns",
     description: "A knee-length wrap dress in soft crepe that goes from desk to dinner.",
     price: "NGN 42,000",
     image: "/images/wrap-dress.jpg",
