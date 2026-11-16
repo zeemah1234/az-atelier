@@ -71,10 +71,10 @@ src/index.css         styles and light/dark colour variables
 
 ## Image credits
 
-REPLACE THIS SECTION. List the source and photographer of each photo you use, for example:
+I got the each photos from the Unsplash app 
 
-- Hero image: Photographer name, Unsplash, link
-- About image: Photographer name, Pexels, link
+- Hero image:Iwari Inc., Unsplash, [link](https://unsplash.com/photos/a-group-of-colorful-objects-JnOFLg09yRE)
+- About image: Vitaly Gariev, Unsplash, [link](https://unsplash.com/photos/fashion-designers-collaborating-and-working-in-a-studio-O6c8l2ROAYI)
 
 (Delete this section if every image is your own.)
 

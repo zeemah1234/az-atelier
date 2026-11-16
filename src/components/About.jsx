@@ -4,7 +4,7 @@ export default function About() {
       <div className="about-image">
         <img
           src="/images/about.jpg"
-          alt="Tailor measuring fabric in the AZ Atelier workshop"
+          alt="Two fashion designers working together in a studio with a mannequin and sketches"
         />
       </div>
       <div className="about-text">
