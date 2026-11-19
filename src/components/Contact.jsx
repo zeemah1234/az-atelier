@@ -6,8 +6,7 @@ export default function Contact() {
     <section id="contact" className="section">
       <h2>Contact us</h2>
       <p className="contact-intro">
-        Ask about an outfit or book a fitting. The details and forms below are
-        a demonstration for a fictional business.
+        Ask about an outfit or book a fitting.
       </p>
 
       <ul className="contact-details">
